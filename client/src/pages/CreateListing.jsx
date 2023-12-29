@@ -110,6 +110,8 @@ export default function CreateListing() {
             setFormData({
                 ...formData,
                 [e.target.id]: e.target.value
+                // [e.target.id] we add the brackets to get name and use the variable name in the state
+                // if we use e.target.id we get a string "name"
             })
         }
     };
@@ -142,7 +144,7 @@ export default function CreateListing() {
                 setError(data.message);
             }
             console.log(data)
-            navigate(`/listing/${data.listing._id}`);
+            navigate(`/listing/${data._id}`);
         } catch (error) {
             setError(error.message);
             setLoading(false);

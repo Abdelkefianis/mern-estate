@@ -57,10 +57,10 @@ export default function Home() {
                     <br />
                     place with ease
                 </h1>
-                <div className="text-gray-400 text-xs sm:text-sm">
-                    Abdelkefi Estate is the best place to find your next perfect place to live.
+                <div className="text-indigo-400 text-xs sm:text-sm">
+                    BestEstate is the best place to find your next perfect place to live.
                     <br />
-                    We provide you with a wide range of properties that are suitable for all kinds of people.
+                    We provide a wide range of properties that are suitable for all kinds of people.
                 </div>
                 <Link
                     to={'/search'}
